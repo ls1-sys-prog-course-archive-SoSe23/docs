@@ -39,7 +39,7 @@ More specifically, we will cover the following topics through a set of programmi
 This course consists of a set of modules related to different aspects of systems programming.
 For each of these modules, there is a dedicated assignment that will help students dig deeper into the concepts and get familiar with them with actual, useful, hands-on tasks.
 There is also weekly Q&A meeting where we answer students' questions and discuss the specific goal of each assignment.
-The students will be required to perform tasks within a time frame (3 weeks) and submit their work in the online evaluation system.
+The students will be required to perform tasks within a time frame (around 2-3 weeks depending on the task) and submit their work in the online evaluation system.
 The submitted workpieces will then be evaluated, and based on that, a grade will be calculated for each assignment.
 
 ## Objectives
