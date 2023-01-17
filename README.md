@@ -104,7 +104,7 @@ We will use Slack for all communication. Please enroll in our Slack workspace us
 - [Youtube playlist](https://www.youtube.com/playlist?list=PLfKm1-FQibbAdPAHgK5Pv8LNRr0o4vou7)
 - [Bugtracker](https://github.com/ls1-sys-prog-course/docs/issues)
 - [Docker image](https://github.com/orgs/ls1-courses/packages/container/package/ls1-runner)
-- [The previous semister (SoSe22)](https://github.com/ls1-sys-prog-course-archive-SoSe22)
+- [The previous semister (SoSe22)](https://github.com/ls1-sys-prog-course-archive-SoSe22/docs)
   - NOTE: The course material is being kept updated; therefore, the old version has differences.
 
 ## Contact
