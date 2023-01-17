@@ -7,7 +7,7 @@
 ## Course Information
 - Language: English
 - Type: Practical training
-- Module: IN0012, IN2106, IN2128
+- Module: IN0012, IN2106, IN2128, IN2397
 - SWS: 6
 - ECTS Credits: 10
 - Prereqisites:
