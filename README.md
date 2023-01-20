@@ -49,8 +49,8 @@ The submitted workpieces will then be evaluated, and based on that, a grade will
 
 ## Meeting place
 
-- Preliminary meeting: February 6th (Mon), 2023 11:00 AM CET
-    - https://tum-conf.zoom.us/j/63716968522
+- Preliminary meeting: February 6th (Mon), 2023 11:00 AM CET at online (zoom)
+    - [Zoom link](https://tum-conf.zoom.us/j/63716968522?pwd=RXBrMTdCRnZGMkI1MDVKVEFWODh0UT09)
     - Meeting ID: 637 1696 8522
     - Passcode: 086604
 
