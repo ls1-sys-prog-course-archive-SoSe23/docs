@@ -74,6 +74,22 @@ The schedule may change. **All deadlines are at 16:00.**
 | [Virtualization](https://github.com/ls1-sys-prog-course/task8-container) | [Babis](https://github.com/cmainas)               | 26.06.23     | 10.07.23 | 40     | [link](./slides/08-container.pdf)           | [Lecture](https://youtu.be/GMs3kLteZvk), [Task](https://youtu.be/INyb4Rj073U) |
 | Compilers                                                                | [Martin](https://github.com/martin-fink)          | 03.07.23     | 17.07.23 | 40     |                                             |                                                                               |
 
+## Allowed Libraries
+
+In general, only standard libraries can be used. In addition to this, the following libraries are available for use.
+
+- Rust: [libc](https://crates.io/crates/libc), [nix](https://crates.io/crates/nix)
+- C++: [{fmt}](https://fmt.dev/latest/index.html), [range-v3](https://github.com/ericniebler/range-v3)
+- General argument parsing libraries, such as [clap](https://crates.io/crates/clap)
+- General error handling libraries, such as [anyhow](https://docs.rs/anyhow/latest/anyhow/)
+
+Depending on the task, the use of additional libraries may be allowed or the use of libraries may be restricted. Please refer to the task description for details.
+
+
+For a reference of the standard library, checkout:
+- [cppreference](https://en.cppreference.com/w/) for C/C++
+- [std](https://doc.rust-lang.org/std/) for rust
+
 ## Grades
 
 Grades are computed as follow:
