@@ -75,8 +75,8 @@ The schedule may change. **All deadlines are at 16:00 (CEST).**
 | Compilers                                                                | [Martin](https://github.com/martin-fink)          | 03.07.23     | 17.07.23 | 40     |                                             |                                                                               |
 
 Note that
-- 50 % points lost if bugs in private tests
-- 0 % points passed if try to game the system
+- 100% points lost if private tests detect cheating or we find a solution tries to game the system (modifying test scripts, etc.)
+- 50% points lost if normal private tests fail
 
 
 ## Allowed Libraries
