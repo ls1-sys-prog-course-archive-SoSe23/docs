@@ -74,6 +74,11 @@ The schedule may change. **All deadlines are at 16:00 (CEST).**
 | [Virtualization](https://github.com/ls1-sys-prog-course/task8-container) | [Babis](https://github.com/cmainas)               | 26.06.23     | 10.07.23 | 40     | [link](./slides/08-container.pdf)           | [Lecture](https://youtu.be/GMs3kLteZvk), [Task](https://youtu.be/INyb4Rj073U) |
 | Compilers                                                                | [Martin](https://github.com/martin-fink)          | 03.07.23     | 17.07.23 | 40     |                                             |                                                                               |
 
+Note that
+- 50 % points lost if bugs in private tests
+- 0 % points passed if try to game the system
+
+
 ## Allowed Libraries
 
 In general, only standard libraries can be used. In addition to this, the following libraries are available for use.
