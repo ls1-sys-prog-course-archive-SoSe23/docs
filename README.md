@@ -95,6 +95,21 @@ For a reference of the standard library, checkout:
 - [cppreference](https://en.cppreference.com/w/) for C/C++
 - [std](https://doc.rust-lang.org/std/) for rust
 
+## Environment
+
+All executables must run on Linux, x86_64. Therefore, we strongly recommend having a local Linux x86_64 environment for development.
+Note that some tasks involve loading kernel modules and configuring kernel parameters, including cgroups, and some operations are not allowed in some container (docker) environments.
+If you are using different OSes, you can use a virtual machine. More specifically,
+
+- Windows: WSL2 would work. Also, Hyper-V, VirtualBox, and VMware are available.
+- Mac: If you use Intel Mac, Docker for Mac would work. If you use Arm mac (M1/M2), then you can try to use [utm](https://mac.getutm.app/) to emulate the entire x86_64 environment, though the overhead of full system simulation is huge, and some tests may not pass. So we recommend preparing other environments.
+
+Some tasks are doable in [Github Codespaces](https://github.com/features/codespaces), which are free for students.
+However, some tasks are not doable as they require the kernel's permission.
+
+Each task gives more details information on runnable environments.
+Note that only the test results on CI count toward grading.
+
 ## Grades
 
 Grades are computed as follow:
