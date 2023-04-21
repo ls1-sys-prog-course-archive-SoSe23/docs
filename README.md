@@ -99,7 +99,7 @@ For a reference of the standard library, checkout:
 
 All executables must run on Linux, x86_64. Therefore, we strongly recommend having a local Linux x86_64 environment for development.
 Note that some tasks involve loading kernel modules and configuring kernel parameters, including cgroups, and some operations are not allowed in some container (docker) environments.
-If you are using different OSes, you can use a virtual machine. More specifically,
+While we only guarantee the execution of tasks in local Linux 86_64 environment, if you are using different OSes, you can try to use a virtual machine. More specifically,
 
 - Windows: WSL2 would work. Also, Hyper-V, VirtualBox, and VMware are available.
 - Mac: If you use Intel Mac, Docker for Mac would work. If you use Arm mac (M1/M2), then you can try to use [utm](https://mac.getutm.app/) to emulate the entire x86_64 environment, though the overhead of full system emulation is huge, and some tests may not pass. So we recommend preparing other environments.
