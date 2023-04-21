@@ -102,7 +102,7 @@ Note that some tasks involve loading kernel modules and configuring kernel param
 If you are using different OSes, you can use a virtual machine. More specifically,
 
 - Windows: WSL2 would work. Also, Hyper-V, VirtualBox, and VMware are available.
-- Mac: If you use Intel Mac, Docker for Mac would work. If you use Arm mac (M1/M2), then you can try to use [utm](https://mac.getutm.app/) to emulate the entire x86_64 environment, though the overhead of full system simulation is huge, and some tests may not pass. So we recommend preparing other environments.
+- Mac: If you use Intel Mac, Docker for Mac would work. If you use Arm mac (M1/M2), then you can try to use [utm](https://mac.getutm.app/) to emulate the entire x86_64 environment, though the overhead of full system emulation is huge, and some tests may not pass. So we recommend preparing other environments.
 
 Some tasks are doable in [Github Codespaces](https://github.com/features/codespaces), which are free for students.
 However, some tasks are not doable as they require the kernel's permission.
