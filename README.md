@@ -88,7 +88,7 @@ In general, only standard libraries can be used. In addition to this, the follow
 - General argument parsing libraries, such as [clap](https://crates.io/crates/clap)
 - General error handling libraries, such as [anyhow](https://docs.rs/anyhow/latest/anyhow/)
 
-Depending on the task, the use of additional libraries may be allowed or the use of libraries may be restricted. Please refer to the task description for details.
+Depending on the task, the use of additional libraries may be allowed or the use of libraries (including standard libraries) may be restricted. Please refer to the task description for details.
 
 
 For a reference of the standard library, checkout:
