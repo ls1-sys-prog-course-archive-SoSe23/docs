@@ -11,8 +11,8 @@
    - (_*This course is not offered to IN2397*_)
 - SWS: 6
 - ECTS Credits: 10
-- Prereqisites:
-    - We don't have any compulsory pre-requisites, but we prefer students to be proficient in the basic concepts of operating systems and systems programming (C/C++/Rust).
+- Prerequisites:
+    - We don't have any compulsory prerequisites, but we prefer students to be proficient in the basic concepts of operating systems and systems programming (C/C++/Rust).
     - Preferred knowledge or equivalent to the lectures:
         - Fundamentals of Programming (IN0002)
         - Introduction to Computer Architecture (IN0004)
@@ -24,14 +24,14 @@
 - Student note: Compulsory enrollment after two weeks of the matching outcome; students who fail to de-register in this period will be registered for the exam
 
 ## Course Details
-This course covers some of the most important aspects of systems' programming.
+This course covers some of the most important aspects of systems programming.
 More specifically, we will cover the following topics through a set of programming assignments over the semester:
 
 - Kernel and system calls: How programs interact with the operating system, how to implement some system calls yourself in assembly
 - File I/O: Learn about file descriptors, direct i/o, memory mapped i/o, page cache etc.
-- Concurrency and synchronization: Learn about different threading primitives, i.e., mutexes, concurrent data structure design and how they are implemented
+- Concurrency and synchronization: Learn about different threading primitives, i.e., mutexes, concurrent data structure design, and how they are implemented
 - Processes: Different system calls related to process handling like fork(), execve(), wait()
-- Memory management: How virtual memory, heap, stack and how malloc() works
+- Memory management: How virtual memory, heap, stack, and how malloc() works
 - Networking: How to handle network protocols, efficient ways to implement servers
 - Performance: How to bring out the performance of the hardware
 - Virtualization: Hypervisors, containers, cgroups
@@ -39,7 +39,7 @@ More specifically, we will cover the following topics through a set of programmi
 
 This course consists of a set of modules related to different aspects of systems programming.
 For each of these modules, there is a dedicated assignment that will help students dig deeper into the concepts and get familiar with them with actual, useful, hands-on tasks.
-There is also weekly Q&A meeting where we answer students' questions and discuss the specific goal of each assignment.
+There is also a weekly Q&A meeting where we answer students' questions and discuss the specific goal of each assignment.
 The students will be required to perform tasks within a time frame (around 2-3 weeks depending on the task) and submit their work in the online evaluation system.
 The submitted workpieces will then be evaluated, and based on that, a grade will be calculated for each assignment.
 
@@ -50,7 +50,7 @@ The submitted workpieces will then be evaluated, and based on that, a grade will
 
 ## Meeting place
 
-- Preliminary meeting: February 6th (Mon), 2023 11:00 AM CET at online (zoom)
+- Preliminary meeting: February 6th (Mon), 2023 11:00 AM CET online (zoom)
     - [Slide](./slides/preliminary_meeting.pdf)
     - [Zoom link](https://tum-conf.zoom.us/j/63716968522?pwd=RXBrMTdCRnZGMkI1MDVKVEFWODh0UT09)
     - Meeting ID: 637 1696 8522
@@ -67,7 +67,7 @@ The schedule may change. **All deadlines are at 16:00 (CEST).**
 | [System Calls](https://github.com/ls1-sys-prog-course/task1-syscalls)    | [Sebastian](https://github.com/Sebastian-Reimers) | 24.04.23     | 08.05.23 | 30     | [link](./slides/01-system_calls.pdf)        | [Lecture](https://youtu.be/qO33G1od3Xo)                                       |
 | [File I/O](https://github.com/ls1-sys-prog-course/task2-fileio)          | [Babis](https://github.com/cmainas)               | 08.05.23     | 22.05.23 | 30     | [link](./slides/02-files.pdf), [FUSE](./slides/02-fuse.pdf)               | [Lecture](https://youtu.be/wDPH8DYZwCg), [FUSE](https://www.youtube.com/watch?v=i3YJK3es-iQ)                                        |
 | [Processes](https://github.com/ls1-sys-prog-course/task3-processes)      | [Jiyang](https://github.com/jedichen121)          | 15.05.23     | 29.05.23 | 30     | [link](./slides/03-processes.pdf)           | [Lecture](https://youtu.be/qNzgterdPng)                                       |
-| [Concurrency](https://github.com/ls1-sys-prog-course/task4-concurrency)  | [Fransisco](https://github.com/FranciscoRomao)    | 22.05.23     | 05.06.23 | 30     | [link](./slides/04-concurrency.pdf)         | [Lecture](https://youtu.be/Bj-1pFh8Bck)                                       |
+| [Concurrency](https://github.com/ls1-sys-prog-course/task4-concurrency)  | [Francisco](https://github.com/FranciscoRomao)    | 22.05.23     | 05.06.23 | 30     | [link](./slides/04-concurrency.pdf)         | [Lecture](https://youtu.be/Bj-1pFh8Bck)                                       |
 | [Memory Management](https://github.com/ls1-sys-prog-course/task5-memory) | [Sebastian](https://github.com/Sebastian-Reimers) | 05.06.23     | 19.06.23 | 30     | [link](./slides/05-memory_management.pdf)   | [Lecture](https://youtu.be/1LxVzohqRx0)                                       |
 | [Networking](https://github.com/ls1-sys-prog-course/task6-sockets)       | [Jiyang](https://github.com/jedichen121)          | 12.06.23     | 26.06.23 | 30     | [link](./slides/06-network_programming.pdf) | [Lecture](https://youtu.be/fDRaXnhjoDE)                                       |
 | [Performance](https://github.com/ls1-sys-prog-course/task7-performance)  | [Tianchi](https://github.com/lialittis)           | 19.06.23     | 03.07.23 | 40     | [link](./slides/07-performance.pdf)         | [Lecture](https://youtu.be/o1SkOoCyHDI)                                       |
@@ -91,7 +91,7 @@ In general, only standard libraries can be used. In addition to this, the follow
 Depending on the task, the use of additional libraries may be allowed or the use of libraries (including standard libraries) may be restricted. Please refer to the task description for details.
 
 
-For a reference of the standard library, checkout:
+For a reference of the standard library, check out:
 - [cppreference](https://en.cppreference.com/w/) for C/C++
 - [std](https://doc.rust-lang.org/std/) for rust
 
@@ -99,7 +99,7 @@ For a reference of the standard library, checkout:
 
 All executables must run on Linux, x86_64. Therefore, we strongly recommend having a local Linux x86_64 environment for development.
 Note that some tasks involve loading kernel modules and configuring kernel parameters, including cgroups, and some operations are not allowed in some container (docker) environments.
-While we only guarantee the execution of tasks in local Linux 86_64 environment, if you are using different OSes, you can try to use a virtual machine. More specifically,
+While we only guarantee the execution of tasks in a local Linux 86_64 environment, if you are using different OSes, you can try to use a virtual machine. More specifically,
 
 - Windows: WSL2 would work. Also, Hyper-V, VirtualBox, and VMware are available.
 - Mac: If you use Intel Mac, Docker for Mac would work. If you use Arm mac (M1/M2), then you can try to use [utm](https://mac.getutm.app/) to emulate the entire x86_64 environment, though the overhead of full system emulation is huge, and some tests may not pass. So we recommend preparing other environments.
@@ -112,7 +112,7 @@ Note that only the test results on CI count toward grading.
 
 ## Grades
 
-Grades are computed as follow:
+Grades are computed as follows:
 
 |From| To|Grade|
 |----|---|-----|
@@ -142,12 +142,12 @@ We will use Slack for all communication. Please enroll in our Slack workspace us
 - [Youtube playlist](https://www.youtube.com/playlist?list=PLfKm1-FQibbB3U8jBJ5-mF3jmH0aCiQ7V)
 - [Bugtracker](https://github.com/ls1-sys-prog-course/docs/issues)
 - [Docker image](https://github.com/orgs/ls1-courses/packages/container/package/ls1-runner)
-- [The previous semister (SoSe22)](https://github.com/ls1-sys-prog-course-archive-SoSe22/docs)
+- [The previous semester (SoSe22)](https://github.com/ls1-sys-prog-course-archive-SoSe22/docs)
   - NOTE: The course material is being kept updated; therefore, the old version has differences.
 
 ## Contact
 
-We *strongly* prefer slack for all communications. For any further questions/comments, please contact the course organizer(s):
+We *strongly* prefer Slack for all communications. For any further questions/comments, please contact the course organizer(s):
 
 - [Dr. Masanori Misono](https://mmisono.github.io/)
 - [Prof. Bhatotia](https://dse.in.tum.de/bhatotia/)
